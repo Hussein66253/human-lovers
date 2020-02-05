@@ -1,0 +1,52 @@
+header{
+    color: whitesmoke;
+    background-color:maroon;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+header h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+header nav ul li{
+    
+    display: inline-block;
+    margin: 35px;
+    text-transform: uppercase;
+    }
+    nav{
+        text-align: center;
+    }
+    body{
+        background-color: #f5f5f5;
+    }
+    header nav ul li a {
+        color: whitesmoke; 
+    }
+
+     q {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: oblique;
+    }
+    p {
+        color: dimgray;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: italic;
+        font-size: inherit;
+}
+img {
+   width: 450px;
+   height: 350px;
+   margin: 100px;
+   margin-top: 25px;
+
+} 
+    
+footer{
+    background-color: black;
+    color: darkblue;
+    text-align: center;
+    margin: 25px;
+    padding: 19px;
+}
