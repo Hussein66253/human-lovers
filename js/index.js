@@ -3,7 +3,15 @@ var age = prompt("We welcom to all people on our site and we like to know your a
 var gender = prompt("We want to if you are male or female to help us to cotact you ?");
 var result= confirm("Are you ready to see what make us the best!");
 
+
+function onOpen (name, age, gender) {
+
 if(result==true){alert("lets get start.")}
-else{alert("okay,maybe late")
+else{
+    alert("okay,maybe onther time")
 window.close();
+ }
+ 
 }
+
+onOpen(name, age, gender); 
