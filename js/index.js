@@ -15,15 +15,21 @@
 // }
 
 // onOpen(name, age, gender); 
-var language = function () {
+function language () {
+    
 var con = prompt ("Which language do you like to learn in the beginning HTML or CSS?"); 
-    var item;
+while( con !== "HTML"&& con!== "CSS"){   
+    var con = prompt ("Which language do you like to learn in the beginning HTML or CSS?");
+}
+var item;
     if (con=="HTML"){
-        item ='img src=https://live.staticflickr.com/7174/26937348141_d721215193_b.jpg""'
+        item ='<img src="https://live.staticflickr.com/7174/26937348141_d721215193_b.jpg">';
     } else if (con=="CSS"){
-        item ='https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg""'
+        item ='<img src="https://p1.pxfuel.com/preview/86/583/812/code-computer-css-it.jpg">';
     }else {
          item = '<strong> PLEASE SELECT ONE  </strong>'
      }
      return item; 
 }
+
+document.write( '<p>' + language() + '</p>');
